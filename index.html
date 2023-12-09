@@ -7,7 +7,7 @@
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
     <canvas id="unity-canvas" width=960 height=600 style="width: 960px; height: 600px; background: #231F20"></canvas>
-    <script src="Build/Downloads.loader.js"></script>
+    <script src="Build/New folder (2).loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -25,9 +25,9 @@
       }
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/Downloads.data",
-        frameworkUrl: "Build/Downloads.framework.js",
-        codeUrl: "Build/Downloads.wasm",
+        dataUrl: "Build/New folder (2).data",
+        frameworkUrl: "Build/New folder (2).framework.js",
+        codeUrl: "Build/New folder (2).wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "GravitySim",
@@ -36,5 +36,11 @@
         // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
       });
     </script>
+    <H1>| Controls |</H1>
+    <h2>Press E to Create Physics bodys</h2>
+    <h2>Press W to Delete Physics bodys</h2>
+    <h2>Press Space to Restart</h2>
+    
+    
   </body>
 </html>
